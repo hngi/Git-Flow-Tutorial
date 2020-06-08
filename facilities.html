@@ -1,0 +1,96 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="styles/header&footer.css" rel="stylesheet" />
+        <link href="styles/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Start of Desktop Navigation -->
+        <header>
+            <section class="navigation-wrapper">
+                <nav class="desktop-nav">
+                   <a href="#">
+                       <img src="images/logo.svg" alt="nav-logo" />
+                   </a> 
+
+                   <ul>
+                       <li><a href="./index.html">Home <span></span></a></li>
+                       <li><a href="./rooms.html">Rooms <span></span></a></li>
+                       <li><a href="./facilities.html">Facilities <span class="active"></span></a></li>
+                       <li><a href="./contact.html">Contact <span></span></a></li>
+                   </ul>
+
+                   <svg data-modal-target="#mobile-nav" id="open-nav" width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 22.1429H35V17.7143H0V22.1429ZM0 31H35V26.5714H0V31ZM0 13.2857H35V8.85714H0V13.2857ZM0 0V4.42857H35V0H0Z" fill="white" fill-opacity="0.87"/>
+                    </svg>                                        
+                </nav>
+            </section>
+        </header>
+        <!-- End of Desktop Navigation -->
+
+        <!-- Start of Mobile Navigation -->
+        <section class="mobile-nav-wrapper modal" id="mobile-nav">
+            <button data-close-button>&times;</button>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html">Rooms</a></li>
+                    <li><a href="./facilities.html">Facilities</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- End of Mobile Nivagation -->
+
+        <!-- Start of Footer -->
+        <footer>
+            <section class="footer-wrapper">
+                <div class="about-us">
+                    <a href="#">
+                        <img src="images/logo.svg" alt="footer-logo" />
+                    </a>
+
+                    <h3>About Us</h3>
+
+                    <p class="about-text">Crystal Hotel is an elegant and stylish hotel that suites all your needs. Our hotel has all you need for maximum comfort and relaxation. Crystal hotlel is the best place to enjoy your life and get the best value for your money. Our staff are polite and decent in their jobs. Give us a try and you will never regret it because we ensure ultimate cutomer satisfaction.</p>
+                </div>
+
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Rooms & Rates</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="flickers">
+                    <h3>Flickers</h3>
+                    <ul class="flikers-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                        <li><a href="#">TYerms & Conditions</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- <div>
+                <p class="copyright">Copyright &copy;2020 Crystal Hotel All rights reserved</p>
+
+                <ul class="flickers-icons">
+                    <li></li>
+                </ul>
+            </div> -->
+        </footer>
+        <!-- End of Footer -->
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/facilities.js"></script>
+    </body>
+</html>
