@@ -1,2 +1,2 @@
-# Team-Incredible-FE-Hotel-Thug
-Hotel Website (Lead - ThugDeveloper)
+# Git Flow Tutorial - HNG
+
